@@ -24,3 +24,17 @@ table {
     a:hover {
       text-decoration: underline;
     }
+
+    .top-Title{
+      color:white;
+      background: blue;
+      border-width: 2px;
+      border-block-color: black;
+    }
+
+    .row-highlight{
+      background-color: lightcyan;
+      font-size: 32;
+      font-weight: Bold;
+      color: darkblue;
+    }
