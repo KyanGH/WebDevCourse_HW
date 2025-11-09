@@ -1,0 +1,76 @@
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 400px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* Header row ("Send a message") */
+table tr:first-child td {
+  background-color: #0077b6;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+/* Table cells */
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Left column (labels) */
+td:first-child {
+  width: 120px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input fields */
+input {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Button styling */
+button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #005f87;
+}
+
+/* Optional: Focus effect on inputs */
+input:focus {
+  border-color: #0077b6;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 119, 182, 0.5);
+}
+
+textarea {
+  width: 95%;
+  height: 100px;              /* makes it taller than inputs */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  resize: vertical;           /* allows resizing only up/down */
+}
