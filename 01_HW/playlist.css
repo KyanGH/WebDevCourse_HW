@@ -38,3 +38,15 @@ table {
       font-weight: Bold;
       color: darkblue;
     }
+
+    .link-click{
+      color: darkblue;
+    }
+
+    .link-click:hover {
+    color: orange;            
+    }
+
+    .link-click:visited{
+      color: purple;
+    }
